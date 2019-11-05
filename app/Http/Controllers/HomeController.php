@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-
 class HomeController extends Controller
 {
     /**
@@ -23,6 +21,20 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $date['title'] = 'Dashboard';
+        $date['subtitle'] = 'Laravel 6 com AdminLTE 3';
+        return view('content.home', $date);
+    }
+
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function page()
+    {
+        $date['title'] = 'Dashboard';
+        $date['subtitle'] = 'Página 1';
+        return view('content.page', $date);
     }
 }
