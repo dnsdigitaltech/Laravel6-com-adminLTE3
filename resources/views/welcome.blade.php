@@ -80,8 +80,11 @@
             @endif
 
             <div class="content">
+                <div class="links">
+                    Você está acessando o Framework Laravel 6 com AdminLTE 3, leia nosso <b>README.md</b> para ver como usar.
+                </div>
                 <div class="title m-b-md">
-                    Laravel
+                    Bem vindo ao Laravel 6 com AdminLTE 3
                 </div>
 
                 <div class="links">
