@@ -9,7 +9,7 @@
         </li>
         <li class="nav-item has-treeview {{ Request::is('page') ? 'menu-open' : '' }}">
             <a href="#" class="nav-link {{ Request::is('page') ? 'active' : '' }}">
-                <i class="fas fa-gavel"></i>
+                    <i class="fas fa-paste"></i>
                 <p>Página 1 <i class="fas fa-angle-left right"></i></p>
             </a>
             <ul class="nav nav-treeview">
@@ -17,7 +17,7 @@
                     <a href="{{ asset('/page') }}"
                     class="nav-link {{ Request::is('page') ? 'active' : '' }}">
                         &nbsp;&nbsp;&nbsp;&nbsp;
-                        <i class="fas fa-car-alt"></i>
+                        <i class="fas fa-file-alt"></i>
                         <p> Conteudo Pagina 1</p>
                     </a>
                 </li>
