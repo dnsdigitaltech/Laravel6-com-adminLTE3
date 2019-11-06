@@ -38,5 +38,5 @@ class HomeController extends Controller
         $date['subtitle'] = 'Página 1';
         $date['fapage'] = 'fas fa-paste';
         return view('content.page', $date);
-    }
+    }                                                                                                                                                                                                                                                                                                                                   
 }
